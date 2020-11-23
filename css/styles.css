@@ -1,0 +1,48 @@
+:root {
+  --primary-text-color: #757575;
+  --primary-heading-color: #212121;
+  --primary-active-color: #2196f3;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: black;
+}
+.logo-color {
+  color: #2196f3;
+}
+
+.navigation-link {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.333;
+  letter-spacing: 0.02em;
+  color: var(--primary-heading-color);
+  text-decoration: none;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--primary-active-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.contacts-list {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
